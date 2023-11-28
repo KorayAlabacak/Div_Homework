@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+  flex-wrap: wrap;
+    
+    
+}
+
+.main div{  font-size: 5vw;
+    padding: .5em;
+    color: white;
+    margin: 10px;
+    border-radius:5px;
+    background: yellowgreen;
+    border: 5px solid black;
+}
+.main >.kutu1{
+    width: 45%;
+    height: 20vh;
+    
+}
+.kutu2{
+    width: 25%;
+    height: 20vh;
+}
+.kutu3{
+    width: 25%;
+    height: 20vh;
+}
+.kutu4{
+    width: 72%;
+    height: 15vh;
+    
+}
+.kutu5{
+    width: 25%;
+    height: 15vh;
+}
+.kutu6{
+    width: 25%;
+    height:40vh;
+    
+}
+.kutu7{
+    width: 45%;
+    height: 40vh;
+}
+.kutu8{
+    width: 25%;
+    height:40vh;
+}
+.kutu9{
+    width: 25%;
+    height:15vh;
+   
+}
+.kutu10{
+    width: 45%;
+    height:15vh;
+}
+.kutu11{
+    width: 25%;
+    height:15vh;
+}
+
+body{
+    margin:0;
+}
